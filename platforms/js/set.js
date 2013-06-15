@@ -1,1 +1,1 @@
-{":set": ":of", ":distinct": ":izm"}
+[":set", ":of", ":distinct", ":izm"]
