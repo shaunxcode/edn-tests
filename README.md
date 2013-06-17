@@ -1,7 +1,7 @@
 edn-tests
 =========
 
-common set of valid edn tests intended to be used by anyone implementing an edn library. 
+This is a common set of valid edn tests intended to be used by anyone implementing an edn library. 
 
 Ideally there will be large files for testing performance across various platforms. 
 
@@ -9,6 +9,22 @@ If you would like to fork it and add your platform under platforms with the expe
 
 e.g.
 
-/valid-edn/vector.edn "[1 2 3]"
-/platforms/js/vector.js "[1, 2, 3]"  
+/valid-edn/vector.edn `[1 2 3]`
 
+/platforms/js/vector.js `[1, 2, 3]`  
+
+Feel free to add a directory for your specific implementation under the relevant platfom which contains the forms as understood by your implemenation. 
+
+e.g.
+
+/platforms/js/jsedn/vector.js `new edn.Vector([1, 2, 3])`
+
+
+###valid-edn
+Your implementation should be able to parse all of these files into the corresponding output under platforms/[your platform].
+
+###invalid-edn
+Your implementation should NOT be able to parse these forms. Ideally a meaningful error/exception should be provided indicating the reason. 
+
+###performance
+Useful for benchmarking an implemenation. Eventually it will be used for comparing various implemenatations on the same hardware.
