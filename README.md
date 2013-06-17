@@ -26,3 +26,9 @@ Your implementation should NOT be able to parse these forms. Ideally a meaningfu
 
 ###performance
 Useful for benchmarking an implemenation. Eventually it will be used for comparing various implemenatations on the same hardware.
+
+##Current Platforms
+clojure
+js
+php
+

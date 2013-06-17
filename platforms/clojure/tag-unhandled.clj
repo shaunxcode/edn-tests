@@ -1,1 +1,1 @@
-#myapp/Person {:first "Fred" :last "Mertz"}
+{:tag myapp/Person :value {:first "Fred" :last "Mertz"}}
