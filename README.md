@@ -28,7 +28,12 @@ Your implementation should NOT be able to parse these forms. Ideally a meaningfu
 Useful for benchmarking an implemenation. Eventually it will be used for comparing various implemenatations on the same hardware.
 
 ##Current Platforms
-clojure
-js
-php
+
+* clojure
+
+* js
+
+* php
+
+* ruby
 
