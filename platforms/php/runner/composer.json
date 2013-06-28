@@ -1,0 +1,6 @@
+{
+    "require": {
+        "igorw/edn": "~1.0@dev",
+        "nikic/phlexy": "@dev"
+    }
+}
