@@ -1,1 +1,1 @@
-edn\create_vector(['c', "\n", "\r", ' ', "\t"])
+new edn\Vector(['c', "\n", "\r", ' ', "\t"])

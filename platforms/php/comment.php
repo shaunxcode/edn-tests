@@ -1,4 +1,4 @@
-edn\create_vector([
+new edn\Vector([
     edn\symbol('valid'),
     edn\symbol('vector'),
     edn\symbol('more'),

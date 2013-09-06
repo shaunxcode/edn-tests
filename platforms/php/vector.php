@@ -1,1 +1,1 @@
-edn\create_vector([1, 2, 3])
+new edn\Vector([1, 2, 3])

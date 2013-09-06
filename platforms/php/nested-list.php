@@ -1,9 +1,9 @@
-edn\create_list([
+new edn\LinkedList([
     edn\symbol('a'),
-    edn\create_list([
+    new edn\LinkedList([
         edn\symbol('b'),
         42,
-        edn\create_list([
+        new edn\LinkedList([
             edn\symbol('c'),
             edn\symbol('d'),
         ]),

@@ -1,4 +1,4 @@
-edn\create_map([
+new edn\Map([
     edn\keyword('this'),
     edn\symbol('is'),
 

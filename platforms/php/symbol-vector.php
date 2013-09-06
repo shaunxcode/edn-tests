@@ -1,4 +1,4 @@
-edn\create_vector([
+new edn\Vector([
     edn\symbol('/'),
     edn\symbol('.'),
     edn\symbol('*'),

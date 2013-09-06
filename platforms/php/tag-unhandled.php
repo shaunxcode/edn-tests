@@ -1,6 +1,6 @@
 new edn\Tagged(
     new edn\Tag('myapp/Person'),
-    edn\create_map([
+    new edn\Map([
         edn\keyword('first'),
         "Fred",
 

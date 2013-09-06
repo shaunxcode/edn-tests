@@ -58,7 +58,7 @@ if ($help) {
 }
 
 $validEdnDir = __DIR__."/../../../valid-edn";
-$results = new Ardent\HashMap('serialize');
+$results = new edn\Map('serialize');
 
 $files = new FilesystemIterator($validEdnDir);
 $ednFiles = array_map(function ($file) { return $file; }, iterator_to_array($files));

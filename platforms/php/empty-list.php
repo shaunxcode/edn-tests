@@ -1,1 +1,1 @@
-edn\create_list([])
+new edn\LinkedList([])

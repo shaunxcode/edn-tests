@@ -1,1 +1,1 @@
-edn\create_list([edn\symbol('a'), edn\symbol('b'), 42])
+new edn\LinkedList([edn\symbol('a'), edn\symbol('b'), 42])

@@ -1,5 +1,5 @@
-edn\create_set([
-    edn\create_map([
+new edn\Set([
+    new edn\Map([
         edn\keyword('foo'),
         edn\symbol('bar'),
     ])

@@ -1,5 +1,5 @@
-edn\create_set([
-    edn\create_list([
+new edn\Set([
+    new edn\LinkedList([
         edn\symbol('foo'),
         edn\symbol('bar'),
     ])

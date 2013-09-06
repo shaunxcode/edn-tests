@@ -1,6 +1,6 @@
-edn\create_map([
+new edn\Map([
     null,
-    edn\create_vector([
+    new edn\Vector([
         edn\keyword('vector'),
         edn\keyword('of'),
 
